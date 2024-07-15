@@ -1,0 +1,334 @@
+{
+  "books": [
+    {
+      "id": "B002",
+      "title": "The Art of Programming",
+      "genre": "Technology",
+      "category": "Programming",
+      "authorIDs": [
+        "A003"
+      ],
+      "publisherId": "P002"
+    },
+    {
+      "id": "B004",
+      "title": "Java Script",
+      "genre": "Education",
+      "category": "Programming",
+      "authorIDs": [
+        "A001"
+      ],
+      "publisherId": null
+    },
+    {
+      "id": "B001",
+      "title": "The Valley",
+      "genre": "Fiction",
+      "category": "Science",
+      "authorIDs": [
+        "A002"
+      ],
+      "publisherId": "P003"
+    },
+    {
+      "id": "B008",
+      "title": "The Science",
+      "genre": "Education",
+      "category": "Programming",
+      "authorIDs": [
+        "A001"
+      ],
+      "publisherId": "P002"
+    },
+    {
+      "id": "B009",
+      "title": "The react Native",
+      "genre": "education",
+      "category": "programming",
+      "authorIDs": [
+        "A001"
+      ],
+      "publisherId": "P003"
+    },
+    {
+      "id": "B089",
+      "title": "React",
+      "genre": "educatin",
+      "category": "ghfrhd",
+      "authorIDs": [
+        "A002"
+      ],
+      "publisherId": "P002"
+    },
+    {
+      "id": "B0788",
+      "title": "The React native",
+      "genre": "ed",
+      "category": "gh",
+      "authorIDs": [
+        "A002"
+      ],
+      "publisherId": "P001"
+    },
+    {
+      "id": "B09",
+      "title": "the",
+      "genre": "book",
+      "category": "is",
+      "authorIDs": [
+        "A001"
+      ],
+      "publisherId": "P001"
+    }
+  ],
+  "authors": [
+    {
+      "id": "A001",
+      "name": "John Kahsay",
+      "phone": "123-456-7890",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": "A002",
+      "name": "eleni",
+      "phone": "1234555",
+      "email": "eleni@miu.edu"
+    }
+  ],
+  "publishers": [
+    {
+      "id": "P001",
+      "name": "Programing Publishing",
+      "phone": "4561230123",
+      "email": "contact@techbookspub.com",
+      "address": "123 Tech St, Silicon Valley, CA"
+    },
+    {
+      "id": "P002",
+      "name": "HelloWorld Publishers",
+      "phone": "567-890-1234",
+      "email": "info@codeworldpub.com",
+      "address": "234 Code Ave, Programmer City, TX"
+    },
+    {
+      "id": "P003",
+      "name": "Eleni",
+      "phone": "3452777772",
+      "email": "el@miu.edu",
+      "address": "chicogo@miu.edu"
+    }
+  ],
+  "catalogs": [
+    {
+      "id": "C001",
+      "bookId": null,
+      "numberOfCopies": 10,
+      "availableCopies": 8
+    },
+    {
+      "id": "C002",
+      "bookId": "B002",
+      "numberOfCopies": 5,
+      "availableCopies": 0
+    },
+    {
+      "id": "C003",
+      "bookId": "B001",
+      "numberOfCopies": 5,
+      "availableCopies": 5
+    },
+    {
+      "id": "C004",
+      "bookId": "B004",
+      "numberOfCopies": 5,
+      "availableCopies": 1
+    }
+  ],
+  "members": [
+    {
+      "id": "M007",
+      "firstname": "Eleni",
+      "lastname": "Araya",
+      "address": "Fairfield",
+      "phone": "1234567898",
+      "email": "eleni@miu.edu",
+      "residentID": "S001"
+    },
+    {
+      "id": "M004",
+      "firstname": "John",
+      "lastname": "smith",
+      "address": "Fairfield",
+      "phone": "1524687992",
+      "email": "john@miu.edu",
+      "residentID": "S008"
+    },
+    {
+      "id": "M002",
+      "firstname": "Biden",
+      "lastname": "Joe",
+      "address": "Chicago",
+      "phone": "1235466668",
+      "email": "alen@miu.edu",
+      "residentID": "S004"
+    },
+    {
+      "id": "M009",
+      "firstname": "Araya",
+      "lastname": "Blen",
+      "address": "Virginia",
+      "phone": "1256668878",
+      "email": "B@edu",
+      "residentID": "S006"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "T001",
+      "bookId": null,
+      "memberId": null,
+      "borrowedDate": "2024-05-01",
+      "returnedDate": "2024-05-15"
+    },
+    {
+      "id": "c746585e-1b34-4929-b484-4b035b7b5a5e",
+      "bookId": "B002",
+      "memberId": "M007",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "20"
+      },
+      "returnedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "20"
+      }
+    },
+    {
+      "id": "5ac10942-74ae-4e94-b2e4-cb9fe8a0eab4",
+      "bookId": "B004",
+      "memberId": "M004",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "20"
+      },
+      "returnedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "20"
+      }
+    },
+    {
+      "id": "1bdd08ef-4860-4609-b462-28ae2a7e62f1",
+      "bookId": "B002",
+      "memberId": "M007",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "20"
+      },
+      "returnedDate": ""
+    },
+    {
+      "id": "c90388a7-fc2b-4034-b751-e96010425341",
+      "bookId": "B001",
+      "memberId": "M002",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "20"
+      },
+      "returnedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "20"
+      }
+    },
+    {
+      "id": "467b58ef-5ffd-41b6-acc5-478c1d510d85",
+      "bookId": "B002",
+      "memberId": "M007",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "21"
+      },
+      "returnedDate": ""
+    },
+    {
+      "id": "bd590eba-f154-4bfe-9ebe-4a3e59757e03",
+      "bookId": "B002",
+      "memberId": "M007",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "21"
+      },
+      "returnedDate": ""
+    },
+    {
+      "id": "ed7b8c2a-1ab6-4588-8a3f-837bda71fb25",
+      "bookId": "B002",
+      "memberId": "M007",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "21"
+      },
+      "returnedDate": ""
+    },
+    {
+      "id": "c98daf97-4309-48ce-8031-1d3d197519fb",
+      "bookId": "",
+      "memberId": "",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "22"
+      },
+      "returnedDate": ""
+    },
+    {
+      "id": "aad8608e-70af-4c01-8281-75ee7c38a516",
+      "bookId": "B002",
+      "memberId": "M002",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "22"
+      },
+      "returnedDate": ""
+    },
+    {
+      "id": "a9cca939-59ab-41b3-a294-16f5c92e424a",
+      "bookId": "B004",
+      "memberId": "M007",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "22"
+      },
+      "returnedDate": ""
+    },
+    {
+      "id": "38f8da99-baa9-4a14-bb57-8770bd5cd550",
+      "bookId": "",
+      "memberId": "",
+      "borrowedDate": {
+        "years": "2024",
+        "month": "05",
+        "day": "22"
+      },
+      "returnedDate": ""
+    }
+  ],
+  "users": [
+    {
+      "id": "U001",
+      "name": "Peter",
+      "email": "peter@miu.edu"
+    }
+  ]
+}

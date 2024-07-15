@@ -1,0 +1,1 @@
+export const LOCAL_STORAGE_KEY = 'cs550-final-project';
